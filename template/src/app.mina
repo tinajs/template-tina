@@ -1,0 +1,20 @@
+<config>
+{
+  "pages": [
+    "pages/home"
+  ]
+}
+</config>
+
+<script>
+import { Page, Component } from '@tinajs/tina'
+import createRouterMixin from '@tinajs/tina-router'
+
+const router = createRouterMixin()
+
+Page.mixin(router)
+Component.mixin(router)
+
+App({
+})
+</script>

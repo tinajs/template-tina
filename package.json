@@ -1,0 +1,26 @@
+{
+  "name": "template-tina",
+  "version": "0.1.0",
+  "description": "Scaffold out a tina template",
+  "files": [
+    "sao.js",
+    "template"
+  ],
+  "repository": {
+    "url": "tinajs/template-tina",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "ava test/test*.js"
+  },
+  "author": "yelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinajs/template-tina/issues"
+  },
+  "homepage": "https://github.com/tinajs/template-tina#readme",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "sao": "^0.22.10"
+  }
+}

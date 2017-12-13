@@ -1,0 +1,43 @@
+<config>
+{
+  "usingComponents": {
+    "m-author": "components/author"
+  }
+}
+</config>
+
+<style>
+</style>
+
+<template>
+  <view>
+    <author />
+  </view>
+</template>
+
+<script>
+import { Page } from '@tinajs/tina'
+import { tinax } from '../store'
+
+Page.define({
+  mixins: [
+    tinax.connect({
+      state ({ items }) {
+        return {
+          items,
+        }
+      },
+      getters ({ getItem }) {
+        return {
+          item: getItem()(this.$route.query.id || 0),
+        }
+      },
+      actions ({ setItem }) {
+        return {
+          setItem,
+        }
+      }
+    }),
+  ],
+})
+</script>
