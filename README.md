@@ -25,4 +25,4 @@ Then add ``dist`` directory to [Wechat Web Devtools](https://mp.weixin.qq.com/de
 - [mina-webpack](https://github.com/tinajs/mina-webpack)
 
 ## License
-MIT &copy; [yelo](https://github.com/imyelo)
+Apache-2.0 &copy; [yelo](https://github.com/imyelo)
