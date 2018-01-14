@@ -1,6 +1,6 @@
 {
   "name": "template-tina",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Scaffold out a tina template",
   "files": [
     "sao.js",
