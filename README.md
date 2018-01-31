@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/template-tina.svg?style=flat-square)](https://www.npmjs.com/package/template-tina)
 [![SAO](https://img.shields.io/badge/⚔️%20SAO-tina-ff69b4.svg?style=flat-square)](https://sao.js.org/)
 
-Scaffolding out a Tina project.
+Scaffolding out a Tina.js project.
 
 ## Quick Overview
 ```bash
