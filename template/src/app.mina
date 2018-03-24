@@ -7,13 +7,10 @@
 </config>
 
 <script>
-import { Page, Component } from '@tinajs/tina'
-import createRouterMixin from '@tinajs/tina-router'
+import Tina from '@tinajs/tina'
+import router from '@tinajs/tina-router'
 
-const router = createRouterMixin()
-
-Page.mixin(router)
-Component.mixin(router)
+Tina.use(router)
 
 App({
 })
