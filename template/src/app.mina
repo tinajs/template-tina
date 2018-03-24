@@ -8,8 +8,12 @@
 
 <script>
 import Tina from '@tinajs/tina'
+import modal from '@tinajs/tina-modal'
+import loading from '@tinajs/tina-loading'
 import router from '@tinajs/tina-router'
 
+Tina.use(modal)
+Tina.use(loading)
 Tina.use(router)
 
 App({
