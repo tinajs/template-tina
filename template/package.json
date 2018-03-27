@@ -19,7 +19,8 @@
     "@tinajs/tinax": "^0.1.2",
     "es6-promise": "^4.1.1",
     "keymirror": "^0.1.1",
-    "uniq": "^1.0.1"
+    "uniq": "^1.0.1",
+    "wxio": "^0.1.0"
   },
   "devDependencies": {
     "@tinajs/mina-entry-webpack-plugin": "^0.6.2",
