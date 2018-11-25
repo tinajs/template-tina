@@ -1,9 +1,9 @@
 {
-  "name": "template-tina",
+  "name": "sao-tina",
   "version": "1.0.0",
   "description": "Scaffold out a Tina.js project",
   "files": [
-    "sao.js",
+    "saofile.js",
     "template"
   ],
   "repository": {
@@ -23,6 +23,6 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "np": "^2.20.1",
-    "sao": "^0.22.17"
+    "sao": "^1.3.2"
   }
 }
