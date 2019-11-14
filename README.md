@@ -8,9 +8,7 @@ Scaffolding out a Tina.js project.
 
 ## Quick Overview
 ```bash
-npm i -g sao@0.x
-
-sao tina my-app
+npx sao tina my-app
 cd my-app
 npm start
 ```
